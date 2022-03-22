@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🎞 Movie Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="titulo">
+            <h1>Prencha os dados do seu bilhete! 🎬</h1>
+        </div>
+        <div class="dados">
+            <div class="data">
+                <div>
+                    <label for="horario-filme">Digite um horario para o filme: </label>
+                    <input type="number" id="horario-filme" class="dados" placeholder="Digite o horario:">
+                </div>
+
+                <label for="data-filme">Digite um dia para o filme: </label>
+                <input type="number" id="data-filme" class="dados" placeholder="Digite o dia:">
+            </div>
+
+            <div class="local">
+                    <label for="local-filme">Digite um local para o filme: </label>
+                    <input type="text" id="local-filme" class="dados" placeholder="Exemplo: Sua casa \ rave \ minha casa">
+            </div>
+
+                <!---<div>
+                    <label for="minha-casa">Minha Casa</label>
+                    <input type="radio" id="minha-casa" name="opcao" value="Minha Casa" >
+                </div>
+                <div>
+                    <label for="sua-casa">Sua Casa</label>
+                    <input type="radio" id="sua-casa" name="opcao" value="Sua Casa" >
+                </div>
+                <div>
+                    <label for="rave">Rave</label>
+                    <input type="radio" id="rave" name="opcao" value="Rave" checked>
+                </div>
+            </div>
+            -->
+
+            <div class="filme">
+                <label for="filme">Digite um filme para o assitir: </label>
+                <input type="text" id="filme" class="dados" placeholder="Digite o filme:">
+            </div>
+
+            <div class="button">
+                <button id="button" onclick="enviarDados()">ENVIAR</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-2">
+        <h2 id="titulo-tic">Comprovante</h2>
+        <h3 id="sub-tic"></h3>
+
+        <p id="p-tic"></p>
+        <p id="data-tic"></p>
+        <p id="local-tic"></p>
+        <p id="parabens"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

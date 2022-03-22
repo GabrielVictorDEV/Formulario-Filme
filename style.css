@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container, .container-2 {
+    background: whitesmoke;
+    color: #1c1c1c;
+    margin: 64px;
+    padding: 64px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.container, .container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.dados input {
+    margin-bottom: 20px;
+}
+
+.dados label {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.local p {
+    margin-bottom: 20px;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+}
+
+#button {
+    margin: auto;
+    width: 120px;
+    height: 30px;
+}
+
+/*Area filme*/ /*cor #e6b4bf rosa #c2e3ec azul #fdf3b8 amarelo*/
+
+.container-2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ed335f;
+    max-width: 800px;
+    border-radius: 10px 80px;
+    border: 2px solid #fdf3b8;
+}
+
+#sub-tic{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #fdf3b8;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+#parabens{
+    color: black;
+}
+
+img{
+    width: 100px;
+}
+
